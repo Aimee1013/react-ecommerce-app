@@ -1,0 +1,59 @@
+.contact-info>h5,
+.shipping-address>h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contact-info p {
+  color: #777;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.shipping-address {
+  margin-top: 20px;
+}
+
+.shipping-address input {
+  font-size: 14px;
+  height: 36px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.return-cart a {
+  color: #1c1c1b;
+}
+
+.checkout-img img {
+  width: 75%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkout-size {
+  font-size: 14px;
+  color: #777;
+}
+
+.checkout-product-subtotal {
+  margin: 20px 0;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.price-title {
+  font-size: 15px;
+  color: #777;
+}
+
+.total-title {
+  font-weight: 600;
+}
+
+.total-amount {
+  font-size: 18px;
+  font-weight: 600;
+}

@@ -1,0 +1,19 @@
+.privacy-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.privacy-item {
+  margin-top: 20px;
+}
+
+.privacy-item-title {
+  font-size: 17px;
+}
+
+.privacy-item-content {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+}

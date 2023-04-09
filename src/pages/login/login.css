@@ -1,0 +1,66 @@
+.gp-15 {
+  gap: 15px;
+}
+
+.login-card {
+  background-color: #fff;
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.login-card .login-title {
+  text-align: center;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.login-card .forgot-pw {
+  color: #1c1c1b;
+  font-size: 15px;
+}
+
+.login-card input {
+  font-size: 15px;
+}
+
+.login-card .form-control,
+.login-card .form-control:focus {
+  border: none;
+  background-color: #f5f5f7;
+}
+
+.login-card .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.login-card .buttons .login-button {
+  background-color: #232f3e;
+  padding: 7px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 20px;
+  border: none;
+}
+
+.login-card .buttons .signup-button {
+  background-color: #febd69;
+  padding: 7px 20px;
+  border-radius: 30px;
+  color: #131921;
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 20px;
+  border: none;
+}
+
+.login-card .signup-button:hover {
+  color: #fff;
+  background-color: #232f3e;
+
+}

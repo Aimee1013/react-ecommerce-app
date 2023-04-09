@@ -1,0 +1,34 @@
+.wishlist-card {
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+
+.wishlist-card .cross {
+  right: 30px;
+  top: 30px;
+  width: 16px;
+  cursor: pointer;
+}
+
+.wishlist-details .title {
+  font-size: 14px;
+  line-height: 20px;
+  color: 1c1c1b;
+  margin-top: 10px;
+}
+
+.wishlist-details .price {
+  margin: 15px 10px 22px 0;
+}
+
+.wishlist-details .price>span {
+  font-size: 16px;
+  margin: 20px 10px 22px 0;
+  color: #e02b40;
+}
+
+.wishlist-details strike {
+  font-size: 15px;
+  color: #ccc;
+  font-weight: 300;
+}
