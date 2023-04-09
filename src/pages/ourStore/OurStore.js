@@ -117,7 +117,7 @@ const OurStore = () => {
                     <ReactStars
                       count={5}
                       size={15}
-                      value="3"
+                      value={3}
                       edit={false}
                       activeColor="#ffd700" />
                     <span className="filter-price">$100.00</span>
@@ -132,7 +132,7 @@ const OurStore = () => {
                     <ReactStars
                       count={5}
                       size={15}
-                      value="3"
+                      value={3}
                       edit={false}
                       activeColor="#ffd700" />
                     <span className="filter-price">$100.00</span>

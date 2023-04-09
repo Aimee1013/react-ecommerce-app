@@ -13,14 +13,14 @@ import view from "../../public/images/view.svg";
 const ProductCard = (props) => {
   const { grid } = props
   let location = useLocation()
-  // console.log(location)
+  console.log(location)
 
 
   return (
     <div className={`${location.pathname === '/store' ? `gr-${grid}` : 'col-3'}`}>
-      <Link to="/product/:id" className="product-card position-relative">
+      <Link to={`${location.pathname === "/" ? "/product/:id" : location.pathname === "/store" ? "/product/:id" : "/:id"}}`} className="product-card position-relative">
         <div className="wishlist-icon position-absolute">
-          <button className="border-0 bg-transparent"><img src={wish} alt="wish" /></button>
+          <Link to="/wishlist" className="border-0 bg-transparent"><img src={wish} alt="wish" /></Link>
         </div>
         <div className="product-image">
           <img src={watch} className="img-fluid" alt="watch" />
@@ -40,9 +40,9 @@ const ProductCard = (props) => {
         </div>
         <div className="action-bar position-absolute">
           <div className="d-flex flex-column align-items-center gap-15">
-            <button className="border-0 bg-transparent"><img src={prodcompare} alt="prodcompare" /></button>
+            <Link to="/compare-product" className="border-0 bg-transparent"><img src={prodcompare} alt="prodcompare" /></Link>
             <button className="border-0 bg-transparent"><img src={view} alt="view" /></button>
-            <button className="border-0 bg-transparent"><img src={addcart} alt="addcart" /></button>
+            <Link to="/cart" className="border-0 bg-transparent"><img src={addcart} alt="addcart" /></Link>
           </div>
         </div>
       </Link>
